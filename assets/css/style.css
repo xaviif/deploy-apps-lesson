@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
-    --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --primary: rgba(9, 115, 131, 0.6);
+    --light: rgb(233, 220, 220);
+    --greyish: rgb(116 121 129 / 80%); 
 }
 
 html, body {
@@ -74,13 +74,14 @@ img + p > span {
 }
 
 /* Explain in comments below what the media queries are doing in regards to different screen sizes */
-
+/*Screen below 992 px will get a smaller text size.*/
 @media screen and (max-width: 992px){
     .custom-text-cont p {
         font-size: 0.8rem;
     }
 }
 
+/**Screens below 768px will get a rearranged order on custom-resume*/
 @media screen and (max-width: 768px){
     .custom-resume > div > div:first-child {
         order: 2;
